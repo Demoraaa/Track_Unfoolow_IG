@@ -1,4 +1,4 @@
-# 🎯 Track_Unfollow_IG / Melacak akun yang tidak mengikuti di IG
+# 🎯 Track_Unfollow_IG / Melacak akun yang tidak mengikuti balik di IG
 **Advanced Instagram Unfollower Tracker & OSINT Tool for Termux**
 
 ![Python](https://img.shields.io/badge/Python-3.x-blue.svg)
@@ -8,9 +8,9 @@
 ## 📌 Deskripsi
 **Track_Unfollow_IG** adalah *script* Python ringan namun berpresisi tinggi yang dirancang khusus untuk membedah data JSON Instagram. Alat ini secara otomatis melacak siapa saja akun yang Anda *follow* namun tidak melakukan *follback* (pengkhianat). 
 
-Berbeda dengan aplikasi pihak ketiga yang rawan *phishing* atau pencurian *password*, Demora berjalan **100% secara lokal (offline)** di perangkat Anda menggunakan data resmi dari Instagram (Download Your Information), sehingga privasi Anda terjamin aman tanpa perlu *login*.
+Berbeda dengan aplikasi pihak ketiga yang rawan *phishing* atau pencurian *password*, script ini berjalan **100% secara lokal (offline)** di perangkat Anda menggunakan data resmi dari Instagram (Download Your Information), sehingga privasi Anda terjamin aman tanpa perlu *login*.
 
-## 🔥 Fitur Utama (God-Mode)
+## 🔥 Fitur Utama (Main features)
 * **X-Ray Extraction:** Mampu menembus enkripsi struktur JSON Instagram yang rumit.
 * **/_u/ Anomaly Bypass:** Memiliki filter *Sniper* untuk membuang direktori `/_u/` yang sering membuat *script* tracker lain gagal (Bug teratasi!).
 * **Deep Linking (App & Web):** Menyediakan tautan langsung untuk membuka profil target via Browser atau langsung ke Aplikasi Instagram (`instagram://user?...`).
@@ -23,7 +23,7 @@ pkg update && pkg upgrade
 pkg install python
 pkg install git
 git clone https://github.com/Demoraaa/Track_Unfoolow_IG.git
-cd Project-Demora
+cd Track_Unfoolow_IG
 ```
 
 ## 🚀 Cara Penggunaan
