@@ -19,20 +19,21 @@ Berbeda dengan aplikasi pihak ketiga yang rawan *phishing* atau pencurian *passw
 
 ## ⚙️ Instalasi (Termux / Linux)
 Jalankan perintah berikut di terminal Anda:
-’’’bash 
+```bash 
 pkg update && pkg upgrade
 pkg install python
 pkg install git
 git clone [https://github.com/Demoraaa/Track_Unfollow_IG.git](https://github.com/Demoraaa/Track_Unfollow_IG.git)
 cd Project-Demora
+```
 
 ## 🚀 Cara Penggunaan
 1. Buka aplikasi Instagram > **Pengaturan** > **Pusat Akun** > **Informasi dan izin Anda** > **Unduh informasi Anda**.
 2. Request unduhan dengan format **JSON**.
 3. Setelah file didownload dan diekstrak, pindahkan file `followers_1.json` dan `following.json` ke dalam folder yang sama dengan script.
 4. Jalankan script:
-’’’bash
+```bash
 python cek_unfoll.py
-
+```
 ## ⚠️ Disclaimer / Peringatan
 Alat ini dibuat murni untuk tujuan edukasi dan kemudahan analisis data pribadi (OSINT). Pengembang tidak bertanggung jawab atas penyalahgunaan *script* ini.
