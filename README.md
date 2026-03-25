@@ -23,7 +23,7 @@ Jalankan perintah berikut di terminal Anda:
 pkg update && pkg upgrade
 pkg install python
 pkg install git
-git clone [https://github.com/Demoraaa/Track_Unfollow_IG.git](https://github.com/Demoraaa/Track_Unfollow_IG.git)
+git clone https://github.com/Demoraaa/Track_Unfollow_IG.git
 cd Project-Demora
 ```
 
