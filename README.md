@@ -19,7 +19,7 @@ Berbeda dengan aplikasi pihak ketiga yang rawan *phishing* atau pencurian *passw
 
 ## ⚙️ Instalasi (Termux / Linux)
 Jalankan perintah berikut di terminal Anda:
-
+’’’bash 
 pkg update && pkg upgrade
 pkg install python
 pkg install git
@@ -31,6 +31,7 @@ cd Project-Demora
 2. Request unduhan dengan format **JSON**.
 3. Setelah file didownload dan diekstrak, pindahkan file `followers_1.json` dan `following.json` ke dalam folder yang sama dengan script.
 4. Jalankan script:
+’’’bash
 python cek_unfoll.py
 
 ## ⚠️ Disclaimer / Peringatan
