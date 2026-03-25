@@ -15,7 +15,6 @@ Berbeda dengan aplikasi pihak ketiga yang rawan *phishing* atau pencurian *passw
 * **/_u/ Anomaly Bypass:** Memiliki filter *Sniper* untuk membuang direktori `/_u/` yang sering membuat *script* tracker lain gagal (Bug teratasi!).
 * **Deep Linking (App & Web):** Menyediakan tautan langsung untuk membuka profil target via Browser atau langsung ke Aplikasi Instagram (`instagram://user?...`).
 * **Auto-Logging:** Hasil pelacakan otomatis disimpan rapi ke dalam file `.txt` dengan stempel waktu (*timestamp*).
-* **CLI Interaktif:** Tampilan antarmuka *Command Line* yang garang, lengkap dengan ASCII Art dan warna.
 
 ## ⚙️ Instalasi (Termux / Linux)
 Jalankan perintah berikut di terminal Anda:
